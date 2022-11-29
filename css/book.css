@@ -1,0 +1,68 @@
+.form{
+    margin-top: 40px;
+    margin: 20px;
+    padding: 20px;
+}
+#head{
+    margin-top: 44px;
+    text-align: center;
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: rgb(27, 18, 2);
+    text-shadow: 0px 0px 5px  rgb(255, 255, 255);
+    font-size: 50px;
+}
+#submit{
+    font-family: 'Noto Serif Khojki', serif;
+    /* background-color: #212529; */
+    border-radius: 12px;
+    margin-top: 10px;
+    border-color: white;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 0.5s;
+
+}
+#submit:hover{
+    background-color: white;
+    color:  #212529;
+    border-color: orangered;
+    border-radius: 35px;
+    letter-spacing: 5px;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+.last{
+    height: 50px;
+    text-align: center;
+    background-color: #212529;
+    font-weight: 300;
+    border: 1px solid black;    
+}
+#foot{
+    color: white;
+    margin-top: 8px;
+}
+#write{
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+#write:hover{
+    letter-spacing: 3px;
+    box-shadow: 0px 0px 5px blue;
+}
+#border{
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#images{
+    height:40px;
+    width: auto;
+    margin-top: 35px;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px white;
+    border-color: black;
+}

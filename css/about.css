@@ -1,0 +1,38 @@
+.over img{
+    height: 20%;
+    width: 40%;
+}
+#nav{
+    font-size: 20px;
+}
+#arrow{
+    height: 40px;
+    width: auto;
+    color: orangered;
+}
+#card{
+    box-shadow: 0px 0px 10px black;
+}
+#home{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 900;
+    padding: 7px;
+    margin-top: 3px;
+    margin: 4px;
+    text-shadow: 0px 0px 20px white;
+    font-size: 20 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+     sansserif;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 10px white;
+    transition: 0.5s;
+}
+#home:hover{
+    border-radius: 20px;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 40px white;
+    box-shadow: 0px 0px 20px white;
+}

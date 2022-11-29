@@ -1,0 +1,145 @@
+body {
+    background : lightblue url("/images/bedroom.jpg")  no-repeat fixed center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.left {
+    padding-top: 10px;
+}
+#home{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 900;
+    padding: 7px;
+    margin-top: 5px;
+    margin: 7px;
+    text-shadow: 0px 0px 10px white;
+    font-size: 20 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+     sansserif;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 10px white;
+    transition: 0.5s;
+}
+#home:hover{
+    border-radius: 20px;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 20px white;
+    box-shadow: 0px 0px 20px white;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+.mb-auto{
+    background-color: #30353b;
+}
+hr{
+    border: 2px solid black;
+}
+#quate{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+}
+#quates{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    font-family: 'Rubik Microbe', cursive;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+#quates1{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    font-family: 'Rubik Microbe', cursive;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+#log{
+    font-weight: 900;
+    font-family: 'Alfa Slab One', cursive;
+}
+#contact{
+    font-family: 'Noto Serif Khojki', serif;
+    /* background-color: #212529; */
+    /* background-color: rgb(0, 0, 0); */
+    background: transparent;
+    border-radius: 12px;
+    border-color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px rgb(4, 4, 4);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 0.5s;
+
+}
+#contact:hover{
+    background-color: white;
+    color:  #212529;
+    border-color: orangered;
+    border-radius: 35px;
+    letter-spacing: 5px;
+    box-shadow: 0px 0px 30px rgb(255, 119, 0);
+}
+#span1{
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: orangered;
+    text-shadow: 0px 0px 15px  rgb(255, 221, 0);
+    font-size: 50px;
+   
+}
+#span2{
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: rgb(0, 76, 255);
+    text-shadow: 0px 0px 5px rgb(13, 0, 255);
+    font-size: 60px;
+}
+@media only screen and (max-width: 1000px) {
+    .nav{
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    
+}
+#images{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+#txtbody{
+color: rgb(0, 0, 0);
+    text-shadow: 10px 10px 40px black;
+}
+#foot{
+    color: white;
+    margin-top: 8px;
+}
+.last{
+    background-color: #212529;
+    font-weight: 300;
+    border: 1px solid black;
+    
+}
+.content{
+    margin-top: 15%;
+}
+#card{
+    box-shadow: 0px 0px 10px black;
+}
+#card:hover{
+    box-shadow: 0px 0px 20px black;
+}
+.rooms{
+    margin-top: 15%;
+}
