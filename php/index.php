@@ -8,10 +8,10 @@ require 'PHPMailer-master/src/SMTP.php';
 require 'PHPMailer-master/vendor/autoload.php';
 
 
-$host = "sql105.epizy.com";
-$username = "epiz_33085239";
-$password = "vg4GdonUhE4";
-$dbname = "epiz_33085239_hotel";
+$host = "localhost";
+$username = "root";
+$password = "";
+$dbname = "hotel";
 
 
 $con = mysqli_connect($host, $username, $password, $dbname);
@@ -32,7 +32,7 @@ $state = $_POST['state'];
 $zipcode = $_POST['zipcode'];
 $number = $_POST['number'];
 
-$sql = "INSERT INTO `account` (`email`, `fullname`, `address`, `adharcard`, `city`, `state`, `zipcode`,`number`) VALUES ('$email', '$full_name', '$address', '$adharcard', '$city', '$state', '$zipcode','$number');";
+$sql = "INSERT INTO `account` (`email`, `fullname`, `address`, `adharcard`, `city`, `state`, `zipcode`,`number`,`datetime`) VALUES ('$email', '$full_name', '$address', '$adharcard', '$city', '$state', '$zipcode','$number',current_timestamp());";
 
 $rs = mysqli_query($con, $sql);
 
@@ -49,7 +49,7 @@ if($rs)
         $mail->Host       = 'smtp.gmail.com';               
         $mail->SMTPAuth   = true;                              
         $mail->Username   ='adityachauhan9456923436@gmail.com';        
-        $mail->Password   = 'hstcopbintzyonag';                               
+        $mail->Password   = 'iajnpqgzhwtxvobl';                               
         $mail->SMTPSecure = 'tls';            
         $mail->Port       = 587;                               
     
